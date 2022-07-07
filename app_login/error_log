@@ -1,0 +1,6 @@
+[13-Aug-2021 17:45:41 UTC] PHP Notice:  Constant SETTINGS_UPLOAD_PATH already defined in /home/mb5zpkduid6z/public_html/gubbachi_new/app_login/myapp/config/constants.php on line 93
+[13-Aug-2021 17:45:41 UTC] PHP Notice:  Constant SETTINGS_UPLOAD_PATH already defined in /home/mb5zpkduid6z/public_html/gubbachi_new/app_login/myapp/config/constants.php on line 93
+[13-Aug-2021 17:46:43 UTC] PHP Notice:  Constant SETTINGS_UPLOAD_PATH already defined in /home/mb5zpkduid6z/public_html/gubbachi_new/app_login/myapp/config/constants.php on line 93
+[13-Aug-2021 17:46:43 UTC] PHP Notice:  Constant SETTINGS_UPLOAD_PATH already defined in /home/mb5zpkduid6z/public_html/gubbachi_new/app_login/myapp/config/constants.php on line 93
+[13-Aug-2021 17:46:44 UTC] PHP Notice:  Constant SETTINGS_UPLOAD_PATH already defined in /home/mb5zpkduid6z/public_html/gubbachi_new/app_login/myapp/config/constants.php on line 93
+[26-Jan-2022 15:05:29 America/New_York] PHP Fatal error:  require(): Failed opening required '/home/akshhxix/public_html/app_login/myapp/third_party/razorpay/razorpay-php/Razorpay.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/akshhxix/public_html/app_login/myapp/controllers/donations.php on line 8

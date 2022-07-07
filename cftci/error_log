@@ -1,0 +1,1 @@
+[17-Apr-2022 20:55:20 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/digiytpm/vidyachetana.in/cftci/front/config/config.php on line 527

@@ -1,0 +1,4 @@
+[30-Jul-2021 03:05:13 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/mb5zpkduid6z/public_html/ngo/front/config/config.php on line 526
+[30-Jul-2021 03:05:13 UTC] PHP Fatal error:  Cannot redeclare __autoload() (previously declared in /home/mb5zpkduid6z/public_html/ngo/front/config/config.php:526) in /home/mb5zpkduid6z/public_html/ngo/front/config/config.php on line 535
+[30-Jul-2021 03:06:03 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/mb5zpkduid6z/public_html/ngo/front/config/config.php on line 526
+[30-Jul-2021 03:06:03 UTC] PHP Fatal error:  Cannot redeclare __autoload() (previously declared in /home/mb5zpkduid6z/public_html/ngo/front/config/config.php:526) in /home/mb5zpkduid6z/public_html/ngo/front/config/config.php on line 535

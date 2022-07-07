@@ -1,0 +1,151 @@
+body{
+    zoom: 100%;
+}
+.breadcrumb{
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1.5rem;
+    list-style: none;
+    border-radius: 0;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    border-color: #d8dbe0;
+}
+
+.active-status{
+    padding:2px 5px; 
+    background:#32CD32;
+    color:#fff;
+    border-radius:11px;
+}
+.btn-group-xs > .btn, .  {
+    padding: .25rem .4rem;
+    font-size: .875rem;
+    line-height: .5;
+    border-radius: .2rem;
+  }
+  .eror{
+      color:orangered;
+  }
+
+.alert > i{
+      vertical-align: middle !important;
+  }
+
+  .control-label{
+    font-weight: 600 !important;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+  /************************
+  Profile Section css
+  ***********************/
+
+.ui-w-80 {
+    width: 180px !important;
+    height: auto;
+}
+.ui-profile-border{
+border: 2px solid #e6e6e6;
+border-radius: 16px;
+box-shadow: 0 0px 8px  rgba(0, 0, 0, .3)!important;
+}
+
+label.btn {
+    margin-bottom: 0;
+}
+
+.btn-outline-primary {
+    border-color: #26B4FF;
+    background: transparent;
+    color: #26B4FF;
+}
+
+
+.text-light {
+    color: #babbbc !important;
+}
+
+.btn-facebook {
+    border-color: rgba(0,0,0,0);
+    background: #3B5998;
+    color: #fff;
+}
+
+.btn-instagram {
+    border-color: rgba(0,0,0,0);
+    background: #000;
+    color: #fff;
+}
+
+
+.row-bordered {
+    overflow: hidden;
+}
+
+.account-settings-fileinput {
+    position: absolute;
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+.account-settings-links .list-group-item.active {
+    font-weight: bold !important;
+}
+.account-settings-multiselect ~ .select2-container {
+    width: 100% !important;
+}
+.light-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+.material-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+.material-style .account-settings-links .list-group-item.active {
+    color: #4e5155 !important;
+}
+.dark-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(255, 255, 255, 0.03) !important;
+}
+.dark-style .account-settings-links .list-group-item.active {
+    color: #fff !important;
+}
+.light-style .account-settings-links .list-group-item.active {
+    color: #4E5155 !important;
+}
+.light-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(24,28,33,0.03) !important;
+}
+
+.ui-datepicker-prev,.ui-datepicker-next{
+color: #343434 !important;
+background: #babbbc !important;
+
+}
+
+.btn-small{
+    font-size: 0.7rem !important;
+    padding:.105em .35em !important;
+}
