@@ -77,6 +77,9 @@
   padding-left: 0;
   display: block;
 }
+.whatsapp-float:hover{
+	right:0;
+}
 }
   </style>
 
