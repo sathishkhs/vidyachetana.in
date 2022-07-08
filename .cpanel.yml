@@ -1,0 +1,6 @@
+---
+deployment:
+    tasks:
+        - export DEPLOYPATH=/home/digiytpm/vidyachetana.in
+        - /bin/cp -R $DEPLOYPATH
+        
