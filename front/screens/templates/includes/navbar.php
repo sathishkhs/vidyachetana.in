@@ -5,11 +5,13 @@
   margin-top: 50px;
   transition: all 0.3s linear;
   box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4);
-  bottom:10px;
-  left: 0;
+  bottom:90px;
+  right:0px;
   z-index: 9999;
 }
-
+.whatsapp-float:hover{
+	right: 150px;
+}
 .whatsapp-float ul{
   padding-left: 0px;
   margin-bottom:0;
@@ -17,6 +19,7 @@
 .whatsapp-float li{
   height: 55px;
   position:relative;
+	list-style:none;
 }
 
 .whatsapp-float li a{
@@ -49,7 +52,7 @@
 
 .whatsapp-float a:hover {
   z-index:1;
-  width: 200px;
+  width: 240px;
 }
 
 .whatsapp-float ul li:hover a span{
