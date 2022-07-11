@@ -438,6 +438,8 @@ hundreds of students.</p>
         function load_countries() {
             var countries = '<div class="row" ><div class="col-xl-12"> <div class="contact-page__input-box"><div class="form-group d-flex flex-wrap form-control p-20 border-0 mb-2"><div class="form-check d-flex mt-2"><label class="d-flex "><b>Country Currency Code:</b></label></div><div class="form-check d-flex mt-2">';
             countries += '<select id="from_currency" class="form-control" onchange="set_currency(this.value)"><option value="USD">USD</option><option value="EUR">EUR</option><option value="GBP">GBP</option><option value="SGD">SGD</option><option value="CAD">CAD</option><option value="CNY">CNY</option><option value="SEK">SEK</option><option value="SEK">SEK</option><option value="MXN">MXN</option><option value="HKD">HKD</option><option value="NOK">NOK</option><option value="RUB">RUB</option><option value="ALL">ALL</option><option value="AMD">AMD</option><option value="ARS">ARS</option><option value="AWG">AWG</option><option value="BBD">BBD</option><option value="BDT">BDT</option><option value="BMD" >BMD</option><option value="BND">BND</option><option value="BOB">BOB</option><option value="GIP">GIP</option><option value="LKR">LKR</option><option value="MNT">MNT</option><option value="GHS">GHS</option><option value="ZAR">ZAR</option><option value="NOK">NOK</option><option value="NZD">NZD</option><option value="PAB">PAB</option><option value="PEN">PEN</option><option value="PHP">PHP</option><option value="PKR">PKR</option><option value="PLN">PLN</option><option value="PYG">PYG</option><option value="RON">RON</option><option value="RUB">RUB</option><option value="SAR">SAR</option><option value="SEK">SEK</option><option value="SGD">SGD</option><option value="THB">THB</option><option value="TRY">TRY</option><option value="TWD">TWD</option><option value="UAH">UAH</option><option value="USD" selected>USD</option><option value="UYU">UYU</option><option value="VND">VND</option><option value="YER">YER</option></select></div></div></div</div></div>';
+            $('#pan').parent().addClass('d-none');
+            $('#pan').val('----');
             $('#countries').html(countries);
             var country = '<div class="col-xl-12"><div class="contact-page__input-box"><input class="form-control" type="text" name="country" placeholder="Country" required><div class="invalid-feedback">City field cannot be blank!</div></div></div>';
 
@@ -448,6 +450,8 @@ hundreds of students.</p>
         $('#indian').click(function() {
             $('#countries').html('');
             $('#country').html('');
+            $('#pan').parent().removeClass('d-none');
+            $('#pan').val('');
             $('#indian-hide').css('display','none');
             $('#pan').attr('required',true);
         })

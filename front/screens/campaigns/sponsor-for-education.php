@@ -244,13 +244,13 @@ student you have supported will receive the below-mentioned benefits too:</p>
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="contact-page__input-box">
-                                        <input class="form-control" type="email" name="email" placeholder="Email*" id="email">
+                                        <input class="form-control" type="email" name="email" placeholder="Email*" id="email" value="">
                                         <div class="invalid-feedback">Email field cannot be blank!</div>
                                     </div>
                                 </div>
                                 <div class="col-xl-12">
                                     <div class="contact-page__input-box">
-                                        <input class="form-control" type="text" name="pan" placeholder="Pan Number*" id="pan">
+                                        <input class="form-control" type="text" name="pan" placeholder="Pan Number*" id="pan" value="">
                                         <div class="invalid-feedback">Pan Number field cannot be blank!</div>
                                     </div>
 
@@ -285,72 +285,13 @@ student you have supported will receive the below-mentioned benefits too:</p>
 
 
 
-
-<!--<section class="testimonial-one about-page-testimonial">-->
-<!--    <div class="testimonial-one-bg" style="background-image: url(assets/images/backgrounds/testimonial-1-bg.jpg)"></div>-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-xl-4">-->
-<!--                <div class="testimonial-one__left">-->
-<!--                    <div class="section-title text-left">-->
-<!--                        <span class="section-title__tagline">SUCCESS STORIES</span>-->
-<!--                        <h2 class="section-title__title">They identified with our vision and partnered with us to make it a reality.</h2>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-xl-8">-->
-<!--                <div class="testimonial-one__right">-->
-<!--                    <div class="testimonial-one__carousel owl-theme owl-carousel">-->
-                        <!--Testimonial One Single-->
-<!--                        <div class="testimonial-one__single">-->
-<!--                            <p class="testimonial-one__text">I am Sahana , studying final year BTech in Presidency University, Bangalore. I come from an economically backward family. We are two siblings and my father has been bed ridden since 6 years. My mother is a teacher in a private school and is the sole earning members in our family. When I secured a seat in BTech, I had no means to support myself to take up the course, considering our financial status. Youth For Seva helped me to pursue my education by providing financial and mentoring support. I recently secured a placement in IBM, Bangalore. I am extremely grateful to Youth for Seva , Vidya Chetana for the invaluable assistance to help me to achieve my goal.</p>-->
-<!--                            <div class="testimonial-one__client-info">-->
-<!--                                <div class="testimonial-one__client-img">-->
-<!--                                    <img src="assets/images/testimonial/sahana_pic.jpg" alt="">-->
-<!--                                    <div class="testimonial-one__quote">-->
-
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="testimonial-one__client-name">-->
-<!--                                    <h3>Sahana</h3>-->
-                                    <!-- <p>Dy. General Manager, CSR, BPCL </p> -->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-                        <!--Testimonial One Single-->
-<!--                        <div class="testimonial-one__single">-->
-<!--                            <p class="testimonial-one__text">I am Yathish from a village near Tumkur, Karnataka . I have completed BE (Mechanical ) from R V College of Engineering.Bangalore. My father has health issues. We live on the pension money of my father given by the Karnataka state government. I did my diploma after 10th std, I received a Vidya Chetana scholarship to continue my Engineering Degree .I have completed my Engineering with 6.8GPA, got placement in DXA technology. I am very thankful to the team for supporting my education.</p>-->
-<!--                            <div class="testimonial-one__client-info">-->
-<!--                                <div class="testimonial-one__client-img">-->
-<!--                                    <img src="assets/images/testimonial/yathish_photo.jpg" alt="">-->
-<!--                                    <div class="testimonial-one__quote">-->
-
-<!--                                    </div>-->
-<!--                                </div>-->
-<!--                                <div class="testimonial-one__client-name">-->
-<!--                                    <h3>Yathish</h3>-->
-                                    <!-- <p> Company Secretary & Vice-President Compliance, JBCPL</p> -->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-
-
-
 <div class="col-sm-12 col-md-12 mx-auto">
     <!--<div class="form-body">-->
     <div class="row">
         <div class="form-holder">
             <div class="form-content">
                 <div class="form-items">
-                    <!--                    <h3 class="text-center">Akshayachaitanya Donation Page</h3>-->
-                    <!--                    <h4>Select any payment gateway to complete payment.</h4>-->
+                   
 
                     <form id="razorpay-form" action="<?php echo base_url(); ?>campaigns/save_payment/<?php echo $insert_id . '/' . $table_name; ?>" method="POST">
                         <script type="text/javascript" src="https://checkout.razorpay.com/v1/checkout.js" 
@@ -450,7 +391,8 @@ student you have supported will receive the below-mentioned benefits too:</p>
             countries += '<select id="from_currency" class="form-control" onchange="set_currency(this.value)"><option value="USD">USD</option><option value="EUR">EUR</option><option value="GBP">GBP</option><option value="SGD">SGD</option><option value="CAD">CAD</option><option value="CNY">CNY</option><option value="SEK">SEK</option><option value="SEK">SEK</option><option value="MXN">MXN</option><option value="HKD">HKD</option><option value="NOK">NOK</option><option value="RUB">RUB</option><option value="ALL">ALL</option><option value="AMD">AMD</option><option value="ARS">ARS</option><option value="AWG">AWG</option><option value="BBD">BBD</option><option value="BDT">BDT</option><option value="BMD" >BMD</option><option value="BND">BND</option><option value="BOB">BOB</option><option value="GIP">GIP</option><option value="LKR">LKR</option><option value="MNT">MNT</option><option value="GHS">GHS</option><option value="ZAR">ZAR</option><option value="NOK">NOK</option><option value="NZD">NZD</option><option value="PAB">PAB</option><option value="PEN">PEN</option><option value="PHP">PHP</option><option value="PKR">PKR</option><option value="PLN">PLN</option><option value="PYG">PYG</option><option value="RON">RON</option><option value="RUB">RUB</option><option value="SAR">SAR</option><option value="SEK">SEK</option><option value="SGD">SGD</option><option value="THB">THB</option><option value="TRY">TRY</option><option value="TWD">TWD</option><option value="UAH">UAH</option><option value="USD" selected>USD</option><option value="UYU">UYU</option><option value="VND">VND</option><option value="YER">YER</option></select></div></div></div</div></div>';
             $('#countries').html(countries);
             var country = '<div class="col-xl-12"><div class="contact-page__input-box"><input class="form-control" type="text" name="country" placeholder="Country" required><div class="invalid-feedback">City field cannot be blank!</div></div></div>';
-
+            $('#pan').parent().addClass('d-none');
+            $('#pan').val('----');
             $('#country').html(country);
             $('#indian-hide').attr('style',false);
             $('#pan').attr('required',false);
@@ -458,6 +400,8 @@ student you have supported will receive the below-mentioned benefits too:</p>
         $('#indian').click(function() {
             $('#countries').html('');
             $('#country').html('');
+            $('#pan').parent().removeClass('d-none');
+            $('#pan').val('');
             $('#indian-hide').css('display','none');
             $('#pan').attr('required',true);
         })
