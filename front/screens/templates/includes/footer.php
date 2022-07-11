@@ -25,7 +25,7 @@
            <li><a href="privacy-policy">Privacy Policy</a></li>
            <li><a href="terms-conditions">Terms & Conditions</a></li>
            <li><a href="disclaimer">Disclaimer</a></li>
-           <!-- <li><a href="blog">Blog</a></li> -->
+           <li><a href="contact-us">Contact Us</a></li>
          
           
          </ul>

@@ -1336,7 +1336,6 @@
 
 
 
-
 }
 
 
@@ -1401,8 +1400,11 @@
 
 
     .main-menu-three__inner-upper {
-        width: 46%;
-        padding: 40px 0 32px;
+        width: 60%;
+        /* padding: 40px 0 32px; */
+    }
+    .mobile-nav__toggler{
+        display: none;;
     }
 
 

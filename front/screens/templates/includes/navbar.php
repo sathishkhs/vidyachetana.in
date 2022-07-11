@@ -87,7 +87,7 @@
 <nav class="whatsapp-float">
   <ul>
 
-   <li><a href="https://wa.me/7349246271">
+   <li><a target="_blank" href="https://wa.me/7349246271">
 	<i class="fab fa-whatsapp"></i>
 	<span>Whatsapp</span></a>
    </li>

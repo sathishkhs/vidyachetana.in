@@ -15,6 +15,10 @@
 
             <ul class="mobile-nav__contact list-unstyled">
                 <li>
+                    <i class="fa fa-file"></i>
+                    <a href="online-application">Online Application</a>
+                </li>
+                <li>
                     <i class="fa fa-envelope"></i>
                     <a href="mailto:<?php echo $settings->EMAIL; ?>"><?php echo $settings->EMAIL; ?></a>
                 </li>

@@ -23,6 +23,14 @@
 											<a href="tel:917349246271"><?php echo $settings->TOLL_FREE_TIME; ?></a>
 										</div>
 									</div>
+									<div class="main-menu-wrapper__left-email-box">
+										<div class="icon">
+											<i class="fas fa-envelope"></i>
+										</div>
+										<div class="email">
+											<a href="online-application">Online Application</a>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div class="main-menu-wrapper__right">
