@@ -1410,7 +1410,16 @@
 
 
 
-
+    @media (max-width: 1050px) {
+ 
+        .main-menu .main-menu__list{
+            display: none;;
+        }
+        .mobile-nav__toggler{
+            display: flex;
+        }
+        
+    }
 
 
 
