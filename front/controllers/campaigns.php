@@ -154,6 +154,7 @@ class Campaigns extends MY_Controller {
 
         }else{
         $template_path = $this->pagewisecontent($slug);
+        $template_path = "templates/campaigns/campaign_home";
         $data = $this->data;
         $data['view_path'] = "campaigns/$slug"; 
         $data['page_heading'] = $data['page_items']->page_title;

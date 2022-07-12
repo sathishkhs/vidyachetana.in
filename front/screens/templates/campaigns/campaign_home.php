@@ -56,7 +56,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div class="page-wrapper">
 	<!-- Preloader code ends here -->
 	<?php $this->load->view('templates/includes/topbar'); ?>
-		<?php $this->load->view('templates/includes/navbar'); ?>
+		<?php $this->load->view('templates/campaigns/campaign/navbar'); ?>
 		<?php $this->load->view('templates/includes/banner'); ?>
 		<?php $this->load->view($view_path); ?>
 

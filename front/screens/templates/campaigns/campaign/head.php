@@ -33,6 +33,8 @@
     <meta name="author" content="Sathish-Kumar">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<!--Facebook Integration code-->
+	<meta name="facebook-domain-verification" content="elylvzlcnh25edfs7irs7ywzbdjeth" />
 
 	<!--<link rel="shortcut icon" href="<?php echo $settings->FAVICON_IMAGE ?>" type="image/x-icon">-->
     <!-- favicons Icons -->
@@ -44,15 +46,18 @@
    
 
     <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&amp;display=swap"
-        rel="stylesheet">
-
-
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+        rel="stylesheet"> -->
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.min.css"   />
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
-    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
     <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
     <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
@@ -64,13 +69,20 @@
     <link rel="stylesheet" href="assets/vendors/reey-font/stylesheet.css" />
     <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.carousel.min.css" />
     <link rel="stylesheet" href="assets/vendors/owl-carousel/owl.theme.default.min.css" />
-
+    <!-- <link rel="stylesheet" href="assets/css/lightbox.min.css" /> -->
+    
     <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/custom-bootstrap-margin-padding.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.css" />
+    
     <link rel="stylesheet" href="assets/css/halpes.css" />
     <link rel="stylesheet" href="assets/css/halpes-responsive.css" />
-    <link rel="stylesheet" href="assets/css/diwali/campaign_css.css" />
 
     <!-- Jquery -->
     <script src="assets/vendors/jquery/jquery-3.5.1.min.js"></script>
     <script src="assets/js/slick.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/js/jpages.min.js"></script>
+    
+ 
 
