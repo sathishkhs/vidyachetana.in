@@ -120,3 +120,7 @@ if (!file_exists('uploads/invoicepdf/')) {
     mkdir('uploads/invoicepdf/', 0777, true);
 }
 
+define('BLOG_PHOTO_UPLOAD_PATH', 'uploads/blog/post_image/');
+if (!file_exists('uploads/blog/post_image/')) {
+    mkdir('uploads/blog/post_image/', 0777, true);
+}

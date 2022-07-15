@@ -103,9 +103,9 @@ define('SEVAS_PHOTO_UPLOAD_PATH', '../uploads/seva_image/');
 if (!file_exists('../uploads/seva_image/')) {
     mkdir('../uploads/seva_image/', 0777, true);
 }
-define('BLOG_PHOTO_UPLOAD_PATH', 'uploads/blog/post_image/');
-if (!file_exists('uploads/blog/post_image/')) {
-    mkdir('uploads/blog/post_image/', 0777, true);
+define('BLOG_PHOTO_UPLOAD_PATH', '../uploads/blog/post_image/');
+if (!file_exists('../uploads/blog/post_image/')) {
+    mkdir('../uploads/blog/post_image/', 0777, true);
 }
 define('TESTIMONIALS_IMAGE_PATH', 'uploads/testimonials/');
 if (!file_exists('uploads/testimonials/')) {
