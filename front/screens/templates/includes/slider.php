@@ -19,7 +19,7 @@
                 <div class="image-layer" >
                     <img src="assets/images/backgrounds/homepage banner_blog.jpg" class="w-100" alt="banner">
                 </div>
-                <a href="vidya-chetana-employability-skills-world-youth-skills-day">
+                <a href="blog/post/vidya-chetana-employability-skills-world-youth-skills-day">
                     <div class="image-layer-overlay"></div>
                 </a>
                
