@@ -14,47 +14,17 @@
         "delay": 9000
     }}'>
         <div class="swiper-wrapper">
-             <!--<div class="swiper-slide">-->
-             <!--           <div class="image-layer"-->
-             <!--           style="background-image: url(assets/images/backgrounds/faq-banner.jpg);">-->
-             <!--       </div>-->
-             <!--       <a href="gift-food-on-this-new-year">-->
-             <!--           <div class="image-layer-overlay"></div>-->
-             <!--       </a>-->
-             <!--           </div>-->
-                        
-                    <!--   <div class="container">-->
-                    <!--        <div class="row">-->
-                    <!--            <div class="col-lg-8">-->
-                    <!--                <div class="main-slider__content"> -->
-                                      
-                                      
-                    <!--</div>-->
-            <!--<div class="swiper-slide">-->
-            <!--    <div class="image-layer" >-->
-            <!--        <img src="assets/images/backgrounds/1.jpg" class="w-100" alt="banner">-->
-            <!--    </div>-->
-            <!--    <a href="each-1-educate-1">-->
-            <!--        <div class="image-layer-overlay"></div>-->
-            <!--    </a>-->
+          
+            <div class="swiper-slide">
+                <div class="image-layer" >
+                    <img src="assets/images/backgrounds/homepage banner_blog.jpg" class="w-100" alt="banner">
+                </div>
+                <a href="vidya-chetana-employability-skills-world-youth-skills-day">
+                    <div class="image-layer-overlay"></div>
+                </a>
                
-            <!--</div>-->
-            <!--<div class="swiper-slide">-->
-            <!--    <div class="image-layer" style="background-image: url(assets/images/backgrounds/2.jpg);">-->
-            <!--    </div>-->
-            <!--    <a href="each-1-educate-1">-->
-            <!--        <div class="image-layer-overlay"></div>-->
-            <!--    </a>-->
-               
-            <!--</div>-->
-            <!--<div class="swiper-slide">-->
-            <!--    <div class="image-layer" style="background-image: url(assets/images/backgrounds/3.jpg);">-->
-            <!--    </div>-->
-            <!--    <a href="each-1-educate-1">-->
-            <!--        <div class="image-layer-overlay"></div>-->
-            <!--    </a>-->
-               
-            <!--</div>-->
+            </div>
+          
             <div class="swiper-slide">
                 <div class="image-layer" >
                     <img src="assets/images/backgrounds/vc_banner-11.jpg" class="w-100" alt="banner">
