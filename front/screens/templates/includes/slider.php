@@ -7,16 +7,16 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/images/backgrounds/homepage banner_blog.jpg" class="d-block w-100" alt="...">
+      <img src="assets/images/backgrounds/home_page_banner1.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="assets/images/backgrounds/vc_banner-11.jpg" class="d-block w-100" alt="...">
+      <img src="assets/images/backgrounds/home_page_banner2.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="assets/images/backgrounds/faq-banner.jpg" class="d-block w-100" alt="...">
+      <img src="assets/images/backgrounds/home_page_banner3.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="assets/images/backgrounds/csr-banner.jpg" class="d-block w-100" alt="...">
+      <img src="assets/images/backgrounds/home_page_banner4.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

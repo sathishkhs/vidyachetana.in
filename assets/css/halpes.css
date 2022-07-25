@@ -7904,3 +7904,26 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     margin-left: auto !important;
     margin-right: auto!important;
 }
+
+.carousel-indicators button{
+    width: 12px;
+height: 12px;
+border-radius: 50%;
+background:#fdacac ;
+border: 1px solid #fdacac ;
+border: 0;
+margin: 3px;
+transition: all 0.5s;
+
+}
+.carousel-indicators button:focus, .carousel-indicators button:focus-visible, .carousel-indicators button:focus-within{
+outline: none;
+}
+.carousel-indicators button.active{
+    width: 18px;
+    height: 18px;
+    background: #ff5c5c;
+    border: 1px solid #ff5c5c;
+    transition: all 0.5s;
+    margin-bottom: 6px;
+}
